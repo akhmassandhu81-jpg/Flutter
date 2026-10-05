@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1052473944676",
+    "project_id": "learningplateform-b4e7f",
+    "storage_bucket": "learningplateform-b4e7f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1052473944676:android:1e5b1aeb7fcc229f8a4d71",
+        "android_client_info": {
+          "package_name": "com.example.learning_plateform"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtpRGhh3WymJxM9coSXTme0ZPJQfpuJi8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
