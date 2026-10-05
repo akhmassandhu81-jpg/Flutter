@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+
+    <application
+        android:name=".EcommerceApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EcomerceApp"
+        tools:targetApi="31">
+
+        <activity android:name=".activities.AdminPanelActivity" />
+        <activity android:name=".activities.AdminUserListActivity" />
+        <activity android:name=".activities.ModeratorProductReviewActivity" />
+        <activity android:name=".activities.ProductDetailActivity" />
+        <activity android:name=".activities.SettingsActivity" />
+        <activity android:name=".activities.RegisterActivity" />
+        <activity android:name=".activities.LoginActivity" />
+        <activity android:name=".activities.UserHomeActivity" />
+        <activity android:name=".activities.UserProductListActivity" />
+        <activity android:name=".activities.CartActivity" />
+        <activity android:name=".activities.CheckoutActivity" />
+        <activity android:name=".activities.DummyPaymentActivity" />
+        <activity android:name=".activities.OnlinePaymentActivity" />
+        <activity android:name=".activities.PaymentSuccessActivity" />
+        <activity android:name=".activities.OrderHistoryActivity" />
+        <activity android:name=".activities.ModeratorRegisterActivity" />
+        <activity android:name=".activities.ModeratorOrdersActivity" />
+        <activity android:name=".activities.AdminOrdersActivity" />
+        <activity android:name=".activities.AdminHomeActivity" />
+        <activity android:name=".activities.AdminProductListActivity" />
+        <activity android:name=".activities.AdminProductFormActivity" />
+        <activity android:name=".activities.AdminEmployeesActivity" />
+        <activity android:name=".activities.AdminModeratorsActivity" />
+        <activity android:name=".activities.AdminCouriersActivity" />
+        <activity android:name=".activities.AdminPaymentCompaniesActivity" />
+        <activity android:name=".activities.AdminAnnouncementsActivity" />
+        <activity android:name=".activities.AnnouncementManagementActivity" />
+        <activity android:name=".activities.AnnouncementsActivity" />
+        <activity android:name=".activities.VendorManagementActivity" />
+        <activity android:name=".activities.ModeratorDashboardActivity" />
+        <activity
+            android:name=".activities.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

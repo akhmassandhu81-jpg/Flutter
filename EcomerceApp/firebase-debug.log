@@ -1,0 +1,57 @@
+[debug] [2026-04-23T13:49:25.712Z] ----------------------------------------------------------------------
+[debug] [2026-04-23T13:49:25.715Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Akhmas\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2026-04-23T13:49:25.715Z] CLI Version:   15.15.0
+[debug] [2026-04-23T13:49:25.716Z] Platform:      win32
+[debug] [2026-04-23T13:49:25.716Z] Node Version:  v20.16.0
+[debug] [2026-04-23T13:49:25.716Z] Time:          Thu Apr 23 2026 18:49:25 GMT+0500 (Pakistan Standard Time)
+[debug] [2026-04-23T13:49:25.716Z] ----------------------------------------------------------------------
+[debug] 
+[info] Already logged in as akhmassandhu81@gmail.com
+[debug] [2026-04-23T13:49:36.178Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Akhmas\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:309:49)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2026-04-23T13:49:52.702Z] ----------------------------------------------------------------------
+[debug] [2026-04-23T13:49:52.708Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Akhmas\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init functions
+[debug] [2026-04-23T13:49:52.709Z] CLI Version:   15.15.0
+[debug] [2026-04-23T13:49:52.710Z] Platform:      win32
+[debug] [2026-04-23T13:49:52.710Z] Node Version:  v20.16.0
+[debug] [2026-04-23T13:49:52.711Z] Time:          Thu Apr 23 2026 18:49:52 GMT+0500 (Pakistan Standard Time)
+[debug] [2026-04-23T13:49:52.711Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Akhmas\StudioProjects\EcomerceApp
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2026-04-23T13:50:03.406Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-04-23T13:50:03.407Z] > authorizing via signed-in user (akhmassandhu81@gmail.com)
+[debug] [2026-04-23T13:50:03.409Z] Checked if tokens are valid: true, expires at: 1776955236474
+[debug] [2026-04-23T13:50:03.409Z] Checked if tokens are valid: true, expires at: 1776955236474
+[debug] [2026-04-23T13:50:03.411Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ecommerceapp-a5ed9 [none]
+[debug] [2026-04-23T13:50:14.969Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects/ecommerceapp-a5ed9, {"headers":{},"method":"GET","signal":{"reason":""}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects/ecommerceapp-a5ed9 failed, reason: getaddrinfo ENOTFOUND firebase.googleapis.com
+[debug] [2026-04-23T13:50:14.971Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/ecommerceapp-a5ed9 (original: request to https://firebase.googleapis.com/v1beta1/projects/ecommerceapp-a5ed9 failed, reason: getaddrinfo ENOTFOUND firebase.googleapis.com)
+[debug] [2026-04-23T13:50:20.002Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Akhmas\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:309:49)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+[error] 
+[error] Error: An unexpected error has occurred.
