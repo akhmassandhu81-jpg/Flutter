@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "457054217929",
+    "firebase_url": "https://shop-billing-9816d-default-rtdb.firebaseio.com",
+    "project_id": "shop-billing-9816d",
+    "storage_bucket": "shop-billing-9816d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457054217929:android:6b0e010d0d99164be3cf18",
+        "android_client_info": {
+          "package_name": "com.example.shop_billing_system"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnAas1fwGqHty9x9PqEacN8_ncP4R_m10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
